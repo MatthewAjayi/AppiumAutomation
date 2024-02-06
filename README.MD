@@ -1,4 +1,4 @@
-# The Score Test Automation README
+# Appium Automation README
 This document provides guidelines and instructions for automating the testing of opening league, team, or player pages, tapping on sub-tabs, verifying correct tab navigation, and ensuring back navigation functionality using the chosen test automation framework (Robot Framework with Appium).
 
 # Requirements
