@@ -11,6 +11,9 @@ Library          Collections
 Library          random
 
 *** Variables ***
+${env_url}=             http://169.254.83.107:4723/wd/hub
+${appActivityName}=     com.fivemobile.thescore.ui.MainActivity
+${appPackage}=          com.fivemobile.thescore 
 ${getStartedButton}=    //android.widget.TextView[@text="Get Started"]
 ${continueButton}=      //android.widget.TextView[@text="Continue"]
 ${teamSelection}=       Lakers
