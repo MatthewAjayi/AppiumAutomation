@@ -10,7 +10,7 @@ theScore: Write an automated test that finds a league, team, or player within th
     [tags]                          theScore-1
     ...                             Regression
     # # Action: Open theScore app
-    ${theScoreApp}                           Open Application     http://169.254.83.107:4723/wd/hub    platformName=Android    deviceName=emulator-5554    appPackage=com.fivemobile.thescore    appActivity=com.fivemobile.thescore.ui.MainActivity    automationName=uiautomator2
+    ${theScoreApp}                           Open Application     ${env_url}    platformName=Android    deviceName=emulator-5554    appPackage=${appPackage}   appActivity=${appActivityName}    automationName=uiautomator2
     
     # # Action: Complete start up settings for theScore application.
     # # Result: Application takes user to the favorites section of theScore application.
